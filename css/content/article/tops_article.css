@@ -1,0 +1,41 @@
+.content__article__item__top {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.bg1 {
+    background-image: url(/Users/ekaterina/Desktop/web-talk/img/Rectangle.png);
+}
+
+.bg2 {
+    background-image: url(/Users/ekaterina/Desktop/web-talk/img/article2.png);
+}
+
+.bg3 {
+    background-image: url(/Users/ekaterina/Desktop/web-talk/img/article3.jpg);
+}
+
+.bg4 {
+    background-image: url(/Users/ekaterina/Desktop/web-talk/img/articke4.jpg);
+}
+
+.bg5 {
+    background-image: url(/Users/ekaterina/Desktop/web-talk/img/articke5.jpg);
+}
+
+.bg6 {
+    background-image: url(/Users/ekaterina/Desktop/web-talk/img/articke6.jpg);
+}
+
+.bg7 {
+    background-image: url(/Users/ekaterina/Desktop/web-talk/img/articke7.jpg);
+}
+
+.bg8 {
+    background-image: url(/Users/ekaterina/Desktop/web-talk/img/articke8.jpg);
+
+}

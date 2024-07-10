@@ -1,0 +1,36 @@
+.content__chapters {
+    display: flex;
+    margin-top: 32px;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+@media screen and (max-width: 414px) {
+
+    /* делаем прокрутку */
+    .content__chapters {
+        overflow-x: auto;
+        overflow-y: hidden;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        scrollbar-width: none;
+        margin-top: 24px;
+    }
+}
+
+.content__chapters__item {
+    border-radius: 24px;
+    box-shadow: #C1C5CD 0px 0px 0px 1px inset;
+    padding: 6px 8px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.selected-item {
+    box-shadow: #16C8BB 0px 0px 0px 2px inset;
+}
+
+.content__chapters__item:hover {
+    box-shadow: #16C8BB 0px 0px 0px 2px inset;
+}

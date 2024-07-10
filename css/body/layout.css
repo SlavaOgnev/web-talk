@@ -1,0 +1,14 @@
+.layout {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: minmax(16px, auto) minmax(288px, 1200px) minmax(16px, auto);
+    grid-template-rows: auto;
+    grid-template-areas:
+        ". header ."
+        "grey_line grey_line grey_line"
+        ". content ."
+        "footer footer footer"
+    ;
+
+}

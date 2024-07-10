@@ -1,0 +1,30 @@
+.header {
+    grid-area: header;
+    height: 76px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Montserrat";
+    font-size: 14px;
+}
+
+.header__layout {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.header__button_burger {
+    display: none;
+}
+
+@media screen and (max-width: 1023px) {
+    .header__button_burger {
+        display: block;
+        /* Показываем бургер меню на мобильных устройствах */
+    }
+}

@@ -1,0 +1,11 @@
+.gray_line {
+    grid-area: grey_line;
+    height: 1px;
+    background-color: rgb(185, 180, 180, .3);
+}
+
+@media screen and (max-width: 1439px) {
+    .gray_line {
+        display: none;
+    }
+}

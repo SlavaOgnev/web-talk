@@ -1,0 +1,27 @@
+.header__menu {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+.header__menu__item {
+    padding: 8px;
+    cursor: pointer;
+
+}
+
+.header__menu__item__bow {
+    position: relative;
+    top: 3px;
+}
+
+@media screen and (max-width: 1023px) {
+    .header__menu {
+        display: none;
+    }
+
+}
